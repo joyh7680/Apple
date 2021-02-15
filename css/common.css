@@ -4,6 +4,13 @@
    }
 
    @font-face { 
-      font-family: 'SF font pro'; 
+      font-family: 'SF Pro KR'; 
       src: url(../font/SF-Font-Pro.dmg) format('dmg');
       } 
+
+
+/*  color */
+
+.c_29 {color: rgb(29,29,31);}
+.c_blue {color: rgb(0, 102, 204) ;}
+.c_134 {color: rgb(134, 134, 139);}

@@ -5,7 +5,7 @@ a { text-decoration: none;}
 
 a:hover { color:rgb(255,255,255); font-weight: 600;}
 
-.gnb_wrap { background-color: rgba(0,0,0,0.8); width: 100%; height: 44px; display: flex; justify-content: center; position: fixed; }
+.gnb_wrap { background-color: rgba(0,0,0,0.8); width: 100%; height: 44px; display: flex; justify-content: center; position: fixed; left: 0; top: 0;}
 
 .gnb_menu { width: 1000px; height: 100%; display: flex; justify-content: space-between; align-items: center;}
 
@@ -13,7 +13,7 @@ a:hover { color:rgb(255,255,255); font-weight: 600;}
 
 .main_visual_wrap {width: 100%; height: 800px; padding: 0 0 12px 0;}
 
-.banner_wrap {width: 100%; height: 46px; background-color: rgb(255, 255, 255); padding: 12px 0; text-align: center;}
+.banner_wrap {width: 100%; height: 46px; padding: 12px 0; text-align: center; margin: 44px 0 0 0; position: relative;}
 
 .banner {color: rgb(29, 29, 31); font-family:  'SF Pro KR', 'SF Pro Text',;  font-size: 14px; font-weight: 400; line-height: 23px;}
 
@@ -22,6 +22,19 @@ a:hover { color:rgb(255,255,255); font-weight: 600;}
 
 /* main visual */
 
+.visual_wrap { background-image: url(../img/iphone_12_large.jpg); display: flex; background-repeat: no-repeat; background-size: cover; height: 692px; justify-content: center;}
 
-.visual_wrap img {position: relative; width: 100%; height: 800px;}
-.visual {position: absolute;}
+.visual { height: 190px;  text-align: center; margin-top:55px; }
+
+h4 {color: rgb(29, 29, 31); font-size: 56px; font-family: 'SF Pro KR',; font-weight: 600; line-height: 66px; }
+
+h5 {margin:6px 0 0 0; color: rgb(17,17,19); font-size: 28px; font-weight: 400; line-height: 31px; font-family: 'SF Pro KR', }
+
+.visual_text_2 {margin-top: 13.6px; ; }
+.visual_text_2 p {font-size: 17px; font-weight: 400; line-height: 27px; }
+
+.visual_text_3 {margin-top: 13.65px; width: 223px; height: 32px; display: flex; }
+.visual_text_3 p {font-size: 21px; font-weight: 400; line-height: 32px; text-align: center;}
+
+
+.visual_text_3 a:hover {text-decoration: underline;}
