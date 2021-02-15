@@ -1,0 +1,9 @@
+@font-face { 
+   font-family: 'SF Pro KR thin'; 
+   src: url(../font/SFProKR_thin.woff.ttf) format('ttf');
+   }
+
+   @font-face { 
+      font-family: 'SF font pro'; 
+      src: url(../font/SF-Font-Pro.dmg) format('dmg');
+      } 
