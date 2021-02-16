@@ -1,16 +1,53 @@
-@font-face { 
-   font-family: 'SF Pro KR thin'; 
-   src: url(../font/SFProKR_thin.woff.ttf) format('ttf');
-   }
 
    @font-face { 
       font-family: 'SF Pro KR'; 
-      src: url(../font/SF-Font-Pro.dmg) format('dmg');
+      src: url(../font/SFProKRDisplay_light.woff2) format('woff2');
+      font-weight: 200;
       } 
 
+      
+   @font-face { 
+      font-family: 'SF Pro KR'; 
+      src: url(../font/SFProKRDisplay_regular.woff2) format('woff2');
+      font-weight: 400;
+      } 
+      
+
+   @font-face { 
+      font-family: 'SF Pro KR'; 
+      src: url(../font/sf-pro-display_bold.woff2) format('woff2');
+      font-weight: 600;
+      } 
+      
+
+   @font-face { 
+      font-family: 'SF Pro KR'; 
+      src: url(../font/SFProKRDisplay_semibold.woff2) format('woff2');
+      font-weight: 700;
+      } 
+      
+
+/* Text Style */
+
+h4 {color: rgb(29, 29, 31); font-size: 56px; font-family: 'SF Pro KR'; ; font-weight: 600; line-height: 66px; }
+
+h5 {margin:6px 0 0 0; color: rgb(29, 29, 31); font-size: 28px; font-weight: 400; line-height: 31px; font-family: 'SF Pro KR'; }
+
+p { font-family: 'SF Pro KR';}
+
+/* margin */
+.mt_6 {margin-top: 6px;}
+.ml_-4 {margin-left: -4px;}
+.ml_35 {margin-left: 35px;}
+ 
 
 /*  color */
 
 .c_29 {color: rgb(29,29,31);}
 .c_blue {color: rgb(0, 102, 204) ;}
 .c_134 {color: rgb(134, 134, 139);}
+.c_245 {color: rgb(245, 245, 247);} 
+
+/* Layout Style */
+
+a:hover { cursor: pointer;}
