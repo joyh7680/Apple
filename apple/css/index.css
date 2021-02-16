@@ -1,0 +1,58 @@
+
+/* iphone12 visual */
+
+.iphone12_wrap { background-image: url(../img/iphone_12_us__fo0stbby242m_largetall.jpg); display: flex; background-repeat: no-repeat; background-size: auto; background-position: center bottom; height: 692px; justify-content: center;padding-top: 55px; margin-bottom: 12px; background-color: rgb(251, 251, 253);}
+
+.iphone12_text {text-align: center;}
+
+.iphone12_text_2 {margin-top: 13.6px;}
+
+.iphone12_text_2 p {font-size: 17px; font-weight: 400; line-height: 27px}
+
+.iphone12_text_3 { height: 34px; margin-top: 13.65px; z-index: 4; text-align: center;}
+
+.iphone12_text_3 a {font-size: 21px; font-weight: 400; line-height: 32px;}
+
+.iphone12_text_3 span:hover {text-decoration: underline; text-decoration-color: rgb(0, 102, 204); color: rgb(0, 102, 204);}
+
+/* iphone12pro visual */
+
+.iphone12pro_wrap {background-image: url(../img/iphone_12_pro_us__e5oyysg4k0ya_largetall.jpg); background-repeat: no-repeat; background-size: auto; background-position: center bottom;width: 100%; height: 692px; padding-top: 55px; margin-bottom: 12px; display: flex; justify-content: center; background-color: rgb(0, 0, 0); }
+
+.iphone12pro_text {text-align: center;}
+
+.iphone12pro_text_2 {margin-top: 13.6px;}
+
+.iphone12pro_text_2 p {font-size: 17px; font-weight: 400; line-height: 27px}
+
+.iphone12pro_text_3 { height: 34px; margin-top: 13.65px; z-index: 4; text-align: center;}
+
+.iphone12pro_text_3 a {font-size: 21px; font-weight: 400; line-height: 32px;}
+
+.iphone12pro_text_3 span:hover {text-decoration: underline; text-decoration-color: rgb(0, 102, 204); color: rgb(0, 102, 204);}
+
+ /* iPad Air */
+
+ .iPad_Air_wrap {background-image: url(../img/hero__dvsxv8smkkgi_largetall.jpg); background-repeat: no-repeat; background-size: auto; background-position: center bottom; width: 100%; height: 692px; padding-top: 33px; margin-bottom: 12px; display: flex; justify-content: center; background-color: rgb(251, 251, 253); }
+
+.iPad_Air_text {text-align: center;}
+
+.iPad_Air_text_3 { height: 34px; margin-top: 13.65px; z-index: 4; text-align: center;}
+
+.iPad_Air_text_3 a {font-size: 21px; font-weight: 400; line-height: 32px;}
+
+.iPad_Air_text_3 span:hover {text-decoration: underline; text-decoration-color: rgb(0, 102, 204); color: rgb(0, 102, 204);}
+
+/* apple promotions */
+
+.promo_wrap {}
+
+.promo {margin: 12px;}
+
+.promo_1{}
+
+.watch_1 {width:922px; height: 580px; background-color: black;}
+
+.watch_1_text {text-align: center; margin: 40px 246px 0;}
+
+.watch_1_text img {width: 430px; height: 50px;}
