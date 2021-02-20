@@ -1,4 +1,10 @@
 
+/* Banner CSS */
+
+.banner_wrap { width: 100%; height: auto; margin: 44px 0 0 0;}
+.banner_text { height: 46px; text-align: center; font-size: 14px; line-height: 46px;}
+.banner_text a { color: rgb(0,102,204);}
+
 /* main visual */
 
 .visual_wrap { background-image: url(../img/hero_iphone12.jpg); display: flex; background-repeat: no-repeat; background-size: cover; height: 692px; justify-content: center;}
@@ -47,7 +53,7 @@
 
  /* iPad Air */
 
- .iPad_Air_wrap {background-image: url(../img/hero_ipad_air.jpg); background-repeat: no-repeat; background-size: auto; background-position: center bottom; width: 100%; height: 692px; padding-top: 33px; margin-bottom: 12px; display: flex; justify-content: center; background-color: rgb(251, 251, 253); }
+ .iPad_Air_wrap {background-image: url(../img/hero_ipad_air.jpg); background-repeat: no-repeat; background-size: auto; background-position: center bottom; width: 100%; height: 692px; padding-top: 33px;  display: flex; justify-content: center; background-color: rgb(251, 251, 253); }
 .iPad_Air_text {text-align: center;}
 .iPad_Air_text_3 { height: 34px; margin-top: 13.65px; z-index: 4; text-align: center;}
 .iPad_Air_text_3 a {font-size: 21px; font-weight: 400; line-height: 32px;}
@@ -74,3 +80,39 @@
 .promo_subhead_wht {color: rgb(245,245,247); font-family: 'SF Pro KR', 'SF Pro Display', 'SF Pro Icons', sans-serif; font-size: 21px; font-weight: 400; letter-spacing: 0.34px; line-height: 26px; margin-top: 11px; }
 .promo_link {margin-top: 11.9px;}
 .promo_link a {margin: 0 14px; font-size: 16px; line-height: 32px; letter-spacing: 0.2px; color: rgb(41,151,255);  }
+
+/* promotion 3 macbook pro */
+
+.promo_3  {width: calc(50% - 12px); margin: 0 6px; background-color: black; text-align: center; height: 580px; background-image: url(../img/promo_macbook_1.jpg); background-repeat: no-repeat; background-size: auto; background-position: center bottom; padding-top: 57px; margin-top: 12px;}
+.promo_3 img {height: 50px; vertical-align: middle;}
+.promo_eyebrow {color: rgb(245, 245, 247);}
+.promo_headline_wht { color:rgb(245,245,247); font-size: 40px; line-height: 44px; margin: 2px 0 0 0; }
+.promo_subhead_wht {color: rgb(245,245,247); font-family: 'SF Pro KR', 'SF Pro Display', 'SF Pro Icons', sans-serif; font-size: 21px; font-weight: 400; letter-spacing: 0.34px; line-height: 26px; margin-top: 11px; }
+.promo_link {margin-top: 11.9px;}
+.promo_link a {margin: 0 14px; font-size: 16px; line-height: 32px; letter-spacing: 0.2px; color: rgb(41,151,255);  }
+
+/* promotion 4 macbook air */
+
+.promo_4  {width: calc(50% - 12px); margin: 0 6px; background-color: black; text-align: center; height: 580px; background-image: url(../img/promo_macbook_2.jpg); background-repeat: no-repeat; background-size: auto; background-position: center bottom; padding-top: 57px; margin-top: 12px;}
+.promo_4 img {height: 50px; vertical-align: middle;}
+.promo_headline_wht { color:rgb(245,245,247); font-size: 40px; line-height: 44px; margin: 2px 0 0 0; }
+.promo_subhead_wht {color: rgb(245,245,247); font-family: 'SF Pro KR', 'SF Pro Display', 'SF Pro Icons', sans-serif; font-size: 21px; font-weight: 400; letter-spacing: 0.34px; line-height: 26px; margin-top: 11px; }
+.promo_link {margin-top: 11.9px;}
+.promo_link a {margin: 0 14px; font-size: 16px; line-height: 32px; letter-spacing: 0.2px; color: rgb(41,151,255);  }
+
+/* promotion 5 macbook air */
+
+.promo_5  {width: calc(50% - 12px); margin: 0 6px; background-color: black; text-align: center; height: 580px; background-image: url(../img/promo_5.jpg); background-repeat: no-repeat; background-size: auto; background-position: center bottom; padding-top: 57px; margin-top: 12px;}
+.promo_5 img {height: 50px; vertical-align: middle;}
+.promo_headline_blk { color: rgb(29, 29, 31); font-size: 40px; line-height: 44px; margin: 2px 0 0 0; }
+.promo_subhead_blk {color: rgb(29, 29, 31); font-family: 'SF Pro KR', 'SF Pro Display', 'SF Pro Icons', sans-serif; font-size: 21px; font-weight: 400; letter-spacing: 0.34px; line-height: 26px; margin-top: 11px; }
+.promo_link {margin-top: 11.9px;}
+.promo_link a {margin: 0 14px; font-size: 16px; line-height: 32px; letter-spacing: 0.2px; color: rgb(0, 102, 204);  }
+
+/* promotion 6 macbook air */
+
+.promo_6  {width: calc(50% - 12px); margin: 0 6px; background-color: rgb(241, 241, 243); text-align: center; height: 580px; background-image: url(../img/promo_6.jpg); background-repeat: no-repeat; background-size: auto; background-position: center bottom; padding-top: 57px; margin-top: 12px;}
+.promo_6 img {height: 50px; vertical-align: middle;}
+.promo_headline_blk { color: rgb(29, 29, 31); font-size: 40px; line-height: 44px; margin: 2px 0 0 0; }
+.promo_link {margin-top: 11.9px;}
+.promo_link a {margin: 0 14px; font-size: 16px; line-height: 32px; letter-spacing: 0.2px; color: rgb(0, 102, 204);  }
