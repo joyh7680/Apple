@@ -119,3 +119,8 @@ p { font-family: 'SF Pro KR', 'SF Pro Text', 'SF Pro Icons';  font-size: 17px; l
 h4 {}
 
 h5{}
+
+@media screen and (max-width:740px) {
+   h2 {font-size: 32px; line-height: 39px;}
+   h3 {font-size: 19px; line-height: 29px;}
+}
