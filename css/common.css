@@ -108,17 +108,19 @@
 .c_blue {color: rgb(0, 102, 204) ;}
 .c_134 {color: rgb(134, 134, 139);}
 
-/* text style */
+/* Text Style */
 
-h1 {color: rgb(29, 29, 31); font-size: 56px; font-family: 'SF Pro KR', 'SF Pro Display', 'SF Pro Icons', sans-serif; font-weight: 600; line-height: 66px; -webkit-font-smoothing: antialiased; }
+h1 {   }
+h2 { font-family: 'SF Pro KR', 'SF Pro Display', 'SF Pro Icons', sans-serif; font-size: 56px; line-height: 66px; font-weight: 600;  -webkit-font-smoothing: antialiased; }
+h3 {  font-family: 'SF Pro KR', 'SF Pro Display', 'SF Pro Icons', sans-serif; font-size: 28px; line-height: 31px; font-weight: 400;
+letter-spacing: 0.1px;  -webkit-font-smoothing: antialiased;  }
+h4 {  font-family: 'SF Pro KR', 'SF Pro Display', 'SF Pro Icons', sans-serif; font-size: 21px; line-height: 26px; font-weight: 400;
+      letter-spacing: normal;  -webkit-font-smoothing: antialiased; }
+h5 { font-family: 'SF Pro KR', 'SF Pro Display', 'SF Pro Icons', sans-serif; }
+h6 { }
 
-h2 {margin:6px 0 0 0; color: rgb(17,17,19); font-size: 28px; font-weight: 400; line-height: 31px;  font-family: 'SF Pro KR', 'SF Pro Display', 'SF Pro Icons', sans-serif; letter-spacing: 0.1px;  -webkit-font-smoothing: antialiased; }
+p { font-family: 'SF Pro KR', 'SF Pro Text', 'SF Pro Icons';  font-size: 17px; line-height: 27px; font-weight: 400; letter-spacing: normal;  }
 
-p { font-family: 'SF Pro KR', 'SF Pro Text', 'SF Pro Icons';  font-size: 17px; line-height: 27px; font-weight: 400; letter-spacing: normal; -webkit-font-smoothing: antialiased; }
-
-h4 {}
-
-h5{}
 
 @media screen and (max-width:740px) {
    h2 {font-size: 32px; line-height: 39px;}
